@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .grid {
+            position: relative;
+            margin: 0 auto;
+        }
+        .item {
+            display: block;
+            position: absolute;
+            z-index: 1;
+        }
+        .item.muuri-item-dragging {
+            z-index: 3;
+        }
+        .item.muuri-item-releasing {
+            z-index: 2;
+        }
+        .item.muuri-item-hidden {
+            z-index: 0;
+        }
+        .item-content {
+            position: relative;
+            width: 100%;
+        }
+        #titleID {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p id="titleID"></p>
+    <div style="overflow-x: scroll; overflow-y: hidden;">
+        <div class="grid" style="height: 690px;"></div>
+    </div>
+    <br>
+    <button class="button sort-ascend">Sort (ascending)</button>
+    <button class="button sort-descending">Sort (descending)</button>
+    <p>Please wait until everything loads...</p>
+    <p>When you slide the horizontal scroll bar to the right, for the first time it's choppy. After that bad user experience it's occasionally <a href="https://idioms.thefreedictionary.com/smooth" target="_blank">as smooth as silk</a> hahaha. Enjoy the visualization \_(^_^)_/</p>
+    <p><strong>Arrow down and bucket icon, on the top right of the chart</strong>: Will allow you save an image of the chart</p>
+    <p><strong>Paper report icon, below arrow down and bucket icon</strong>: Will allow you to view the raw data for the chart</p>
+    <p><strong>Data Views Column Order is</strong>: AreaName, Female, Male, Total</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts-en.min.js"></script>
+    <script src="custom-essos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.5.4/muuri.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="index.js" lang="babel" type="text/babel"></script>
+</body>
+</html>
