@@ -1,3 +1,4 @@
+![](horizontal-bars.gif)
 <br>
 ### Credits
 - <a href="https://ecomfe.github.io/echarts-doc/public/en/tutorial.html#Get%20Started%20with%20ECharts%20in%205%20minutes" target="_blank">Echarts Documentation</a>
