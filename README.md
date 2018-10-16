@@ -1,4 +1,4 @@
-![](horizontal-bars.gif)
+<a href="https://open-data-government-of-alberta.github.io/Alberta-Census-Subdivisions-Female-Male-and-Totals-Population-Estimates---Horizontal-Bar-Charts/index.html" target="_blank">![](horizontal-bars.gif)</a>
 <br>
 ### Credits
 - <a href="https://ecomfe.github.io/echarts-doc/public/en/tutorial.html#Get%20Started%20with%20ECharts%20in%205%20minutes" target="_blank">Echarts Documentation</a>
