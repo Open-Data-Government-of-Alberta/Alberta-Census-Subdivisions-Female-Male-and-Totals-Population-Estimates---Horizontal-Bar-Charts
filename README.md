@@ -1,5 +1,14 @@
 <a href="https://open-data-government-of-alberta.github.io/Alberta-Census-Subdivisions-Female-Male-and-Totals-Population-Estimates---Horizontal-Bar-Charts/index.html" target="_blank">![](horizontal-bars.gif)</a>
 <br>
+### Data - Notes
+- This file contains population estimates for census subdivisions.
+- These estimates are based on the 2011 Census counts adjusted for census net undercoverage (including adjustment for incompletely enumerated Indian reserves and population reviews).
+- These estimates are based on the 2011 Standard Geographical Classification.
+- <b>Source:</b> Statistics Canada, Demography Division, customized data.
+
+### Data - Warranties and Disclaimers
+This data product is provided ‘as-is,’ and Statistics Canada makes no warranty, either express or implied, including but not limited to, warranties of merchantability and fitness for a particular purpose. In no event will Statistics Canada be liable for any direct, special, indirect, consequential or other damages, however caused.
+
 ### Credits
 - <a href="https://ecomfe.github.io/echarts-doc/public/en/tutorial.html#Get%20Started%20with%20ECharts%20in%205%20minutes" target="_blank">Echarts Documentation</a>
 - <a href="https://ecomfe.github.io/echarts-examples/public/view.html?c=doc-example/label-position" target="_blank">Label Placement</a>
